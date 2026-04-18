@@ -9,6 +9,7 @@ class CuteBot {
 
     public:
         CuteBot();
+        ~CuteBot() = default;
         void begin();
         long getDistance();
         void turnLeft();

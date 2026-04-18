@@ -15,6 +15,7 @@ enum MotorSide : int {
 class Motor{
     public:
         Motor();
+        ~Motor() = default;
         void setMotorSpeed(int8_t motorSpeed);
         void setId(MotorSide id) { id_ = id; };
     protected:
