@@ -1,3 +1,4 @@
+#pragma once
 // -- CUTEBOT --
 #define CUTEBOT_ADDR 0x10
 #define SONAR_TRIG_PIN 8
