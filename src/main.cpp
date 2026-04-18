@@ -5,8 +5,8 @@
 Accelerometer accel;
 CuteBot cb;
 
-const int buttonA = 5;     // the number of the pushbutton pin
-const int buttonB = 11; 
+const int buttonA = BUTTON_A_PIN;     // the number of the pushbutton pin
+const int buttonB = BUTTON_B_PIN; 
 
 void setup() {
     Serial.begin(9600);

@@ -5,3 +5,5 @@
 #define SONAR_ECHO_PIN 12
 // -- MICROBIT --
 #define ACC_ADDR 0x19 // Accelerometer addr
+#define BUTTON_A_PIN 5
+#define BUTTON_B_PIN 11
