@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <Wire.h>
+#include "HardwareConfig.h"
 
 enum MotorDirection {
     FORWARD = 0x02,

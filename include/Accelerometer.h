@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
+#include "HardwareConfig.h"
 
-#define ACC_ADDR 0x19 // Accelerometer addr
 enum AXIS {
     X,
     Y,
